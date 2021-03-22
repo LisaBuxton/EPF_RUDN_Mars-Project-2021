@@ -10,7 +10,8 @@ This project aims to find the best places to establish a new civilization on Mar
 Here is an explaination on what this project is for and how to use the data and the code we have uplowded. 
 
 First of all, like said above, this project will allow the user to find the best places, based on his conditions, to establish a new civilization on Mars. This project 
-combines knowledge on Python programming and ARCGIS sofware. 
+combines knowledge on Python programming and ARCGIS sofware. We wrote all of the program in the jupyter notebook.
+
 The user is able to specify conditions on four input parameters we have chosen to be relevant for the purpose of this project : 
 - Elevation 
 - Temperature
