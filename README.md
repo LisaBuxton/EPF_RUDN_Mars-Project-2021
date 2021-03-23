@@ -34,7 +34,8 @@ Elevation map :
 ![image](https://user-images.githubusercontent.com/80962680/112119774-f9be2500-8bbd-11eb-9294-9634b80e4f47.png)
 
 This map is an elevation map we have found on https://planetarymaps.usgs.gov, from which we extracted the slope map created within our code. We were not able to upload it here because of the size limit on github, so here is the link of this map : https://planetarymaps.usgs.gov/mosaic/Mars_MGS_MOLA_DEM_mosaic_global_463m.tif
-When you have this map, the code will create the slope map you can see just above within our code, specificly within the main fuction named “choose_where_to_live_on_mars”.  
+
+When you have this map, the code will create the slope map you can see just below, specificly within the main fuction named “choose_where_to_live_on_mars”.  
 The slope map has values bewteen 0 (light areas) and 90 degrees (darker areas) and shows the elavation angle all over the surface of Mars. The user will, in the code, specify an elevation angle range that is convinient for him. For example, if the user wants to live in a globally flat area, he can choose an angle range with a maximum angle smaller than 5-10 degrees. This step will be seen a bit later in this readme file. 
 
 ![image](https://user-images.githubusercontent.com/80962680/112120209-4e61a000-8bbe-11eb-8c8a-b211a7e5d823.png)
@@ -57,7 +58,7 @@ Luminosity intensity :
 
 ![image](https://user-images.githubusercontent.com/80962680/112121878-03e12300-8bc0-11eb-81a5-a00dba3ff93c.png)
 
-This map shows the luminosity intensity on Mars on a specific time of the year (as the north pole is much more illuminated as for the south pole) So here as well this map could be improved. This map has been created within our code based on a grid of points covering all the surface of Mars. The function in our program that creates this map is called "create_maxsolarangle" and the grid you need for the code to run has been uploaded in the github repositery as "mars_fishnet". The values of this map range bewteen 0 (light areas) and 90 degrees (dark areas) and shows the value of the sun angle troughout the day across the surface of Mars. 
+This map shows the luminosity intensity on Mars on a specific time of the year (as the north pole is much more illuminated than the south pole) So here as well this map could be improved. This map has been created within our code based on a grid of points covering all the surface of Mars. The function in our program that creates this map is called "create_maxsolarangle" and the grid you need for the code to run has been uploaded in the github repositery as "mars_fishnet". The values of this map range bewteen 0 (light areas) and 90 degrees (dark areas) and shows the value of the sun angle troughout the day across the surface of Mars. 
 
 
 For a better visualisation, we also added another map showing the surface of Mars. This map has no data and its only purpose is to get a better visualisation of the final areas selected by the program at the end. We were not able to upload it due to the size limit on github but here is the link of the map if you want to dowload it : https://astrogeology.usgs.gov/search/map/Mars/Viking/MDIM21/Mars_Viking_MDIM21_ClrMosaic_global_232m
