@@ -1,5 +1,5 @@
 # Mars-Project-2021
-This project developed for the Geospatial Programming class of Spring 2020, an international collaboration between two universities, EPF of France and RUDN of Russia
+This project was developed for the Geospatial Programming class of Spring 2020, an international collaboration between two universities, EPF of France and RUDN of Russia
 (https://www.epf.fr/ and http://www.rudn.ru)
 This project was done by Lisa BUXTON and Romane LAGLAIVE, two students of EPF engineering  school, France, in 4th year in the areospace field. 
 The professor in charge of this course is Naci Dilekli. (https://github.com/ndilekli/)
