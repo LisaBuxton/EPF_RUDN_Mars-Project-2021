@@ -18,7 +18,7 @@ The user is able to specify conditions on four input parameters we have chosen t
 - Ice consitency 
 - Luminosity intensity 
 
-The elavation parameter allows the user to choose wether he wants to live in an area with high altitude variations  or in an area with low altitude variations. 
+The elevation parameter allows the user to choose wether he wants to live in an area with high altitude variations  or in an area with low altitude variations. 
 
 The temperature parameter allows the user to choose a temperature range that is convinient for him to live on Mars. 
 
@@ -31,6 +31,8 @@ Here is the maps of the input parameters :
 
 Elevation map : 
 
+![image](https://user-images.githubusercontent.com/80962680/112129372-a650d480-8bc7-11eb-92dd-93c6a1f9eefa.png)
+
 ![image](https://user-images.githubusercontent.com/80962680/112119774-f9be2500-8bbd-11eb-9294-9634b80e4f47.png)
 
 This map is an elevation map we have found on https://planetarymaps.usgs.gov, from which we extracted the slope map created within our code. We were not able to upload it here because of the size limit on github, so here is the link of this map : https://planetarymaps.usgs.gov/mosaic/Mars_MGS_MOLA_DEM_mosaic_global_463m.tif
@@ -38,9 +40,13 @@ This map is an elevation map we have found on https://planetarymaps.usgs.gov, fr
 When you have this map, the code will create the slope map you can see just below, specificly within the main fuction named “choose_where_to_live_on_mars”.  
 The slope map has values bewteen 0 (light areas) and 90 degrees (darker areas) and shows the elavation angle all over the surface of Mars. The user will, in the code, specify an elevation angle range that is convinient for him. For example, if the user wants to live in a globally flat area, he can choose an angle range with a maximum angle smaller than 5-10 degrees. This step will be seen a bit later in this readme file. 
 
+![image](https://user-images.githubusercontent.com/80962680/112129445-b668b400-8bc7-11eb-94fa-ff2136661e49.png)
+
 ![image](https://user-images.githubusercontent.com/80962680/112120209-4e61a000-8bbe-11eb-8c8a-b211a7e5d823.png)
 
 Temperature map :
+
+![image](https://user-images.githubusercontent.com/80962680/112129470-bd8fc200-8bc7-11eb-84da-4538e9ee738c.png)
 
 ![image](https://user-images.githubusercontent.com/80962680/112120333-646f6080-8bbe-11eb-8d81-6a702969f249.png)
 
@@ -49,12 +55,16 @@ This map has been found on the NASA website regarding the climate data on Mars. 
 
 Ice consistency map : 
 
+![image](https://user-images.githubusercontent.com/80962680/112129496-c2ed0c80-8bc7-11eb-9692-06affc6ea936.png)
+
 ![image](https://user-images.githubusercontent.com/80962680/112121604-b5338900-8bbf-11eb-8f3e-b3d8b2f70577.png)
 
 This map has been found on https://swim.psi.edu/PilotStudyProducts.php. The values range between -1 and 1. 1 means that there is a high probability to find ice on the subsurface (bewteen 0 and 1 meter under the surface of Mars) and -1 means that there is most likely no ice at this place. This map has been uploaded on the github repositery and every thing you need for this map is in the zip file "ice_con"
 
 
 Luminosity intensity :
+
+![image](https://user-images.githubusercontent.com/80962680/112129519-c7192a00-8bc7-11eb-93a0-128168b98635.png)
 
 ![image](https://user-images.githubusercontent.com/80962680/112121878-03e12300-8bc0-11eb-81a5-a00dba3ff93c.png)
 
